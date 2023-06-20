@@ -1,5 +1,4 @@
 import React from "react";
-import menuData from "../data";
 import Pizaa from "./Pizaa";
 const Menu = () => {
   const pizzaData = [
@@ -68,7 +67,6 @@ const Menu = () => {
         <p>We're still working on our menu. Please come back later :)</p>
       )}
 
-      {/*  <Pizaa name={pizaa.name} photoName={pizaa.photoName} />*/}
     </main>
   );
 };
